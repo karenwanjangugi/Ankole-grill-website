@@ -1,0 +1,110 @@
+.fading-images{
+    position:relative;
+    width: 100;
+    height: 100;
+    overflow:;
+    
+
+}
+
+.homepage{
+    position:absolute;
+    width:100vw;
+    height:100vh;
+    animation: fade 10s infinite forwards; 
+}
+.homepage:nth-child(1){
+    background-image: url(Images/ankole-grill-location.jpg);
+    background-position: 5%;
+    background-repeat: no-repeat;
+    background-size:100% ;
+    animation-delay: 5s;
+}
+.homepage:nth-child(2){
+    background-image: url(Images/ankole-grill-restaurant.jpeg);
+    background-position: 5%;
+    background-repeat: no-repeat;
+    background-size:100% ;
+    animation-delay: 5s;
+}
+   
+
+.homepage:nth-child(3){
+    background-image: url(Images/ankole-food.jpeg);
+    background-position: 5%;
+    background-repeat: no-repeat;
+    background-size:100% ;
+    animation-delay: 5s;
+}
+    
+
+.homepage:nth-child(4){
+    background-image: url(Images/Ankole-cocktail.jpeg);
+    background-position: 5%;
+    background-repeat: no-repeat;
+    background-size:100% ;
+    /* animation-delay: 5s; */
+}
+    
+
+.homepage:nth-child(5){
+    background-image: url(Images/ankole-veggies.jpg);
+    background-position: 5%;
+    background-repeat: no-repeat;
+    background-size:100% ;
+    animation-delay: 5s;
+}
+   
+
+
+
+@keyframes fade{
+0% {opacity: 0;}
+20%{opacity: 1;}
+40%{opacity: 2;}
+60%{opacity: 0;}
+80%{opacity: 1;} 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.text{
+    color: white;
+    text-align: center;
+    padding: 10.8cm;
+    
+}
+
+ /* background-image: url(Images/ankole-grill-location.jpg);
+ animation-name: welcome;
+ animation-duration: 5s;
+ animation-delay: 1s;
+ animation-iteration-count: infinite;
+
+} */
+
+/* @keyframes welcome {
+
+} */
