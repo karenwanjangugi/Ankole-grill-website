@@ -1,0 +1,192 @@
+body{
+    padding: 0cm;
+    margin: 0cm;
+}
+.restaurants{
+  display: flex;
+}
+.restaurants h4{
+    color: darkorange;
+    text-align: center;
+    margin-top: 8cm;
+    font-size: large;
+    
+    
+
+}
+.restaurants p{
+    color: white;
+    text-align: center;
+    
+}
+.Kitisuru{
+    width: 60cm;
+    height:23.5cm ;
+    background-image: url(Images/ankole-grill-location.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: visible;
+  
+    
+    
+}
+
+.Kitisuru h1{
+    color: white;
+    padding: 10cm;
+    padding-top: 0cm;
+    padding-bottom: 0cm;
+    
+   
+}
+.Kitisuru a{
+    text-decoration: none;
+    color: white;
+
+
+}
+.Kilimani{
+    width:60cm ;
+    height: 23.5cm;
+    background-image: url(Images/kilimani.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+    
+}
+.Kilimani a{
+    text-decoration: none;
+    color: white;
+
+
+
+
+}
+.Kilimani h1{
+    color: white;
+    padding: 10cm;
+    padding-top: 0cm;
+    padding-bottom: 0cm;
+}
+
+/*menu*/
+.kitisuruimage{
+    
+    color: white;
+    padding: 10cm;
+    text-align: center;
+    padding-top: 5cm;
+    width: 10cm;
+    padding-left: 7cm;
+}
+.kitisuruimage h1{
+    color: darkorange;
+}
+.kitisuruimage img{
+    
+    height: 5cm;
+
+}
+.kitisurumenu{
+    display: flex;
+    background-image: url(Images/ankolemenu.jpg);height: 30cm; width: 30cm;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30cm;
+    height: 23.69cm;
+    overflow: hidden;
+    color: rgba(0, 0, 0, 1);
+    background-blend-mode: darken;
+    
+    
+    
+}
+
+.menuitems{
+    
+    width: 25cm;
+    display: grid;
+    color: white;
+    background-color: black;
+    float: right;
+    position: absolute;
+    right: 0;
+    
+    
+    
+
+}
+.menufilter{
+
+width: 25cm;
+}
+
+.menufilter ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    color: gray;
+    
+}
+.menufilter a{
+    text-decoration: none;
+    color: gray;
+}
+.menufilter :hover{
+color: darkorange;
+}
+.specificitems{
+    
+    height: 16.66cm;
+    overflow-y: scroll;
+    padding: 25px;
+    padding-top: 5cm;
+
+
+}
+.specificitems ul{
+    list-style-type: none;
+
+}
+.specificitems h2{
+    color: darkorange;
+}
+.coffee{
+    display: flex;
+    justify-content: space-between;
+}
+.espresso{
+    display: flex;
+    justify-content: space-between;
+}
+.Cappucchino{
+    display: flex;
+    justify-content: space-between;
+}
+.latte{
+    display: flex;
+    justify-content: space-between;
+}
+.mocha{
+    display: flex;
+    justify-content: space-between;
+}
+
+.food{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.ankolelogo img{
+height: 2cm;
+padding: 10px;
+margin-top: 0cm;
+padding-top: 0;
+
+}
+
+.logoanditems{
+    display: flex;
+}
