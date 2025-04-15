@@ -1,0 +1,462 @@
+/*menu*/
+body{
+    padding: 0;
+    margin: 0;
+   
+}
+.kitisuruimage{
+    
+    color: white;
+    padding: 10cm;
+    text-align: center;
+    padding-top: 5cm;
+    width: 10cm;
+    padding-left: 7cm;
+}
+.kitisuruimage h1{
+    color: darkorange;
+}
+.kitisuruimage img{
+    
+    height: 5cm;
+
+}
+.kitisurumenu{
+    display: flex;
+    background-image: url(Images/ankolemenu.jpg);
+   height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30cm;
+    overflow: hidden;
+    color: rgba(0, 0, 0, 1);
+    background-blend-mode: darken;
+    
+    
+    
+}
+
+.menuitems{
+    
+    width: 25cm;
+    display: grid;
+    color: white;
+    background-color: black;
+    float: right;
+    position: absolute;
+    right: 0;
+    
+    
+    
+
+}
+.menufilter{
+
+width: 25cm;
+}
+
+.menufilter ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    color: gray;
+    
+}
+.menufilter a{
+    text-decoration: none;
+    color: gray;
+}
+.menufilter :hover{
+color: darkorange;
+}
+.specificitems{
+    
+    height: 71.1vh;
+    overflow-y: scroll;
+    padding: 25px;
+    padding-top: 5cm;
+
+
+}
+.specificitems ul{
+    list-style-type: none;
+
+}
+.specificitems h2{
+    color: darkorange;
+}
+.coffee{
+    display: flex;
+    justify-content: space-between;
+}
+.espresso{
+    display: flex;
+    justify-content: space-between;
+}
+.Cappucchino{
+    display: flex;
+    justify-content: space-between;
+}
+.latte{
+    display: flex;
+    justify-content: space-between;
+}
+.mocha{
+    display: flex;
+    justify-content: space-between;
+}
+
+.food{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.ankolelogo img{
+height: 2cm;
+padding: 10px;
+margin-top: 0cm;
+padding-top: 0;
+
+}
+
+.logoanditems{
+    display: flex;
+}
+@media only screen and  (max-width: 500px) and (min-width: 0px){
+
+    .kitisuruimage{
+        
+        text-align: center;
+        padding-top: 5cm;
+        width: 10cm;
+        padding-left: 0.3cm;
+    }
+    .kitisuruimage h1{
+        color: darkorange;
+    }
+    .kitisuruimage img{
+        
+        height: 3cm;
+    
+    }
+    .kitisurumenu{
+        display: block;
+       
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 9.91cm;
+        height: 20cm;
+        overflow: hidden;
+        color: rgba(0, 0, 0, 3);
+        background-blend-mode: darken;
+        height: 22cm;
+        
+        
+        
+    }
+    
+    .menuitems{
+        
+        width: 10cm;
+        display: grid;
+        color: white;
+        background-color: black;
+        float: right;
+        position: absolute;
+        
+        
+    }
+
+        .menufilter{
+            width: 7cm;
+            padding-left: 1cm;
+            }
+            
+            .menufilter ul{
+                display: flex;
+                justify-content: space-between;
+                list-style-type: none;
+                color: gray;
+                gap: 1cm;
+                
+            }
+            .menufilter a{
+                text-decoration: none;
+                color: gray;
+            }
+            .menufilter :hover{
+            color: darkorange;
+            }
+            .specificitems{
+                
+                height: 7cm;
+                overflow-y: scroll;
+                padding: 25px;
+                padding-top: 5cm;
+                padding-left: 1cm;
+                
+            
+            
+            }
+            .specificitems ul{
+                list-style-type: none;
+            
+            }
+            .specificitems h2{
+                color: darkorange;
+            }
+            .coffee{
+                display: flex;
+                justify-content: space-between;
+            }
+            .espresso{
+                display: flex;
+                justify-content: space-between;
+            }
+            .Cappucchino{
+                display: flex;
+                justify-content: space-between;
+            }
+            .latte{
+                display: flex;
+                justify-content: space-between;
+            }
+            .mocha{
+                display: flex;
+                justify-content: space-between;
+            }
+            
+            .food{
+                display: flex;
+                justify-content: space-between;
+                font-size: smaller;
+                
+            
+            }
+            .ankolelogo img{
+            height: 2cm;
+            padding: 10px;
+            margin-top: 0cm;
+            padding-top: 0;
+            
+            }
+            
+            .logoanditems{
+                display: flex;
+            }    
+        
+}
+
+
+ @media only screen and ( max-width: 800px) and (min-width: 501px){
+
+   
+    .kitisuruimage{
+        
+        
+        text-align: center;
+        padding-top: 5cm;
+        width: 10cm;
+        padding-left: 2.5cm;
+    }
+    .kitisuruimage h1{
+        color: darkorange;
+    }
+    .kitisuruimage img{
+        
+        height: 3cm;
+    
+    }
+    .kitisurumenu{
+        display: block;
+       
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 14.3cm;
+        height: 20cm;
+        overflow: hidden;
+        color: rgba(0, 0, 0, 3);
+        background-blend-mode: darken;
+        height: 22cm;
+        
+        
+        
+    }
+    
+    .menuitems{
+        
+        width: 15cm;
+        display: grid;
+        color: white;
+        background-color: black;
+        float: right;
+        position: absolute;
+        
+        
+    }
+
+        .menufilter{
+            width: 13cm;
+            padding-left: 1cm;
+            }
+            
+            .menufilter ul{
+                display: flex;
+                justify-content: space-between;
+                list-style-type: none;
+                color: gray;
+                gap: 1cm;
+                
+            }
+            .menufilter a{
+                text-decoration: none;
+                color: gray;
+            }
+            .menufilter :hover{
+            color: darkorange;
+            }
+            .specificitems{
+                
+                height: 7cm;
+                overflow-y: scroll;
+                padding: 25px;
+                padding-top: 5cm;
+                padding-left: 1cm;
+                
+            
+            
+            }
+            .specificitems ul{
+                list-style-type: none;
+            
+            }
+            .specificitems h2{
+                color: darkorange;
+            }
+            .coffee{
+                display: flex;
+                justify-content: space-between;
+            }
+            .espresso{
+                display: flex;
+                justify-content: space-between;
+            }
+            .Cappucchino{
+                display: flex;
+                justify-content: space-between;
+            }
+            .latte{
+                display: flex;
+                justify-content: space-between;
+            }
+            .mocha{
+                display: flex;
+                justify-content: space-between;
+            }
+            
+            .food{
+                display: flex;
+                justify-content: space-between;
+                font-size: smaller;
+                
+            
+            }
+            .ankolelogo img{
+            height: 2cm;
+            padding: 10px;
+            margin-top: 0cm;
+            padding-top: 0;
+            
+            }
+            
+            .logoanditems{
+                display: flex;
+            }    
+        
+}
+
+ }
+@media only screen and (max-width: 1200px) and (min-width: 801px){
+   body{
+    padding: 0;
+    margin: 0;
+   
+}
+.kitisuruimage{
+    
+    color: white;
+    padding: 10cm;
+    text-align: center;
+    padding-top: 5cm;
+    width: 10cm;
+    padding-left: 5.5cm;
+}
+.kitisuruimage h1{
+    color: darkorange;
+}
+.kitisuruimage img{
+    
+    height: 5cm;
+
+}
+.kitisurumenu{
+    display: block;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 22cm;
+    height: 23.69cm;
+    overflow: hidden;
+    color: rgba(0, 0, 0, 3);
+    background-blend-mode: darken;
+    
+    
+    
+}
+
+.menuitems{
+    
+    width: 25cm;
+    display: grid;
+    color: white;
+    background-color: black;
+    float: right;
+    position: absolute;
+    right: 0;
+    
+    
+    
+
+}
+.menufilter{
+
+width: 25cm;
+}
+
+.menufilter ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    color: gray;
+    
+}
+.menufilter a{
+    text-decoration: none;
+    color: gray;
+}
+.menufilter :hover{
+color: darkorange;
+}
+.specificitems{
+    
+    height: 26.66cm;
+    overflow-y: scroll;
+    padding: 30px;
+    padding-top: 5cm;
+    margin-left: 3cm;
+
+
+}
+
+}
