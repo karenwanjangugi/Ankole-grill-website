@@ -29,13 +29,19 @@ body{
 }
 .kitisuru{
     border: solid 0.5px;
-    height: 30vh;
+    height: 32vh;
     margin-left: 60vh;
     margin-top: 30vh;
     padding: 30px;
     width: 40vh;
+    font-family: sans-serif;
+    font-weight: 150;
 
     
+}
+
+.kitisuru h1{
+    font-family: my_font;
 }
 .kitisuru a{
     color: white;
@@ -43,11 +49,17 @@ body{
 }
 .kilimani{
     border: solid white 0.5px;
-    height: 40vh;
+    height: 42vh;
     margin-top: 30vh;
     padding: 30px;
     width: 40vh;
+    font-family: sans-serif;
+    font-weight: 150;
+}      
+.kilimani h1{    
+    font-family: my_font;
 }
+
 .kilimani a{
     color: white;
     text-decoration: none;
@@ -55,7 +67,7 @@ body{
 
 /*navigation bar*/
 .navbar nav {
-    background-color: black;
+    background-color: rgb(44, 42, 42);
     /* padding: 0.3vh; */
     color: white;
     border-radius: 40px;
@@ -156,6 +168,12 @@ body{
     visibility: visible;
   }
 
+  @font-face {
+    font-family: "my_font";
+    src: url(fonts/Type\ Machine.ttf);
+    font-weight: 100;
+}
+
 
 @media only screen and (max-width: 500px) and (min-width: 0px){
     body{
@@ -191,6 +209,7 @@ body{
         margin-top: 24vh;
         padding: 8px;
         font-size: smaller;
+        
         
     
         

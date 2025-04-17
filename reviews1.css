@@ -1,115 +1,91 @@
 body{
-    margin: 0;
-    padding: 0;
+
+    background-color: black;
+    
 }
 
+.reviewtext{
+    display: flex;
+    /* width: 85vh; */
+    margin-left: 60vh;
+    font-family: serif;
 
-.reservationkaribu{
-    background-image: url(Images/reservationpic.avif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 50vw;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.5);
-    background-blend-mode: darken;
 }
-
-.reservationskaribucontent{
-    margin-left: 20vh;
-    color: white;
-    text-align: center;
+.reviewtext p{
+    line-height: 25px;
+    font-weight: 700;
+    margin-right: 15vh;
+}
+.reviews h1{
     font-family: my_font;
-    margin-left: 4vh;
+    font-size: 50px;
+    font-weight: 100;
+    
 }
-.reservationskaribucontent img{
-    height: 30vh;
+
+
+.reviews{
+    color: white;
+    margin-left: 5vh;
+    text-align: center;
     margin-top: 10vh;
 }
-
-#karibu{
-    font-size: 32px;
+.reviews img{
+    height: 20vh;
 }
-#reservation{
-    font-size: 64px;
-    color: darkorange;
-}
-.form{
-    padding: 50px;
-    color: white;
-    background-color: black;
-    width: 45vw;
-    padding-left: 10vh;
-    padding-top:150px;
-    overflow: scroll;
-    overflow-x: hidden;
-    height: 78.1vh;
-
-
-}
-.form input{
-    padding: 20px;
-    background-color: black;
-    border: solid 1px gray;
-    width: 90vh;
-    box-sizing: border-box;
+.reviewtext i{
+    padding: 3vh 0;
+    padding-top: 4vh;
+    /* margin-right: 10vh; */
+    font-size: 60px;
+    /* border: solid; */
+    gap: 0px;
     
+    
+}
+.reviewtext a{
+    color: grey;
 
 }
 
-.form label{
-    margin: 10px;
+#revright{
+    color: rgb(191, 67, 22);
+    font-size: 30px;
+    margin-left:90vh ;
+}
+#revleft{
+    color: rgb(191, 67, 22);
+    font-size: 30px;
+    margin-right: 90vh;
 }
 
-.form button{
-    width: 90vh;
-    padding: 20px;
-    background-color: bisque;
-    border-radius: 10px;
-    border: none;
-    margin-top: 5vh;
-
-}
-.form button:hover{
-    color: white;
-    background-color: rgb(207, 165, 88)
-}
-.form input:focus{
-    border: 1px;
-    border-radius: 0;
-   
-}
-
-
-.reservations{
-    display: flex;
-}
 @font-face {
     font-family: "my_font";
     src: url(fonts/Type\ Machine.ttf);
     font-weight: 100;
 }
 
+#arrowleft{
+    margin-left: -20vh;
+    /* padding: 0; */
+}
+#arrowright{
+    margin-left: -10vh;
+}
+
+
 /*navigation bar*/
 .navbar nav {
-    background-color: black;
+    background-color:rgb(19, 18, 18) ;
     color: white;
     border-radius: 40px;
-    margin-top:-4cm;
-    margin-left: 8vw;
+    margin-top:8vh;
+    margin-left: 30vw;
     padding-right: 1cm;
     position: absolute;
 
 
 }
-
-/* .navbar nav #reservations:hover{
-background-color: white;
-color: #aaa;
-
-}
-.navbar nav a:hover{
-    background-color: #aaa;
-} */
 
 .navbar nav ul {
     list-style-type: none;
@@ -141,6 +117,17 @@ color: #aaa;
     height: 1vh;
     padding-top: 1.8vh;
     gap: 4vh;
+    color: #aaa;
+    font-size: 20px;
+    
+}
+.navbar nav i:hover{
+    background-color: white;
+    border-radius: 25px;
+    /* padding: 10px 10px; */
+    border: solid;
+    
+
 }
 .navbar nav li{
     padding: 15px;
@@ -152,7 +139,6 @@ color: #aaa;
 .tooltip {
     position: relative;
     display: inline-block;
-    border-bottom: 1px dotted black;
   }
   
   .tooltip .tooltiptext {
@@ -164,7 +150,6 @@ color: #aaa;
     border-radius: 7px;
     padding: 15px;
     position: absolute;
-    z-index: 1;
     bottom: 60px;
     margin-left: -90px;
     
@@ -196,4 +181,3 @@ color: #aaa;
   .tooltipmenu:hover .tooltipmenutext{
     visibility: visible;
   }
-
