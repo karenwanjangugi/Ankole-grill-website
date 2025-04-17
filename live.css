@@ -18,14 +18,11 @@ body{
     background-blend-mode: darken;
     text-align: center;
     overflow: scroll;
-    height: 70cm;
+    height: 300vh;
     overflow-x: hidden;
-    overflow-y: hidden;
-    
-    
-    
-    
+    overflow-y: hidden;  
 }
+
 .title h1{
     color: darkorange;
     margin-left: 2cm;
@@ -38,21 +35,35 @@ body{
 }
 .images img{
     display: block;
-    margin: 2cm;
-    margin-left: 30cm;
-    /* overflow: scroll; */
+    /* margin: 2cm; */
+    /* margin-left: 30cm; */
+    height: 40vh;
+    width: 25vw;
+    overflow: scroll;
+    transition: 0.5s ease-out;
+    margin-bottom: 10vh;
 
+
+}
+
+.images img:hover{
+transform: scale(1.1);
 }
 
 .images{
-    height: 20cm;
+    height: 80vh;
+    width: 40%;
+    position: absolute;
+    right: 0;
 }
+
 .title{
    margin-bottom: -20cm;
    position: fixed;
    color: white;
-   margin-left: 50vh;
-   margin-top: 15vh;
+   width: 50%;
+   /* margin-left: 50vh; */
+   /* margin-top: 15vh; */
    text-align: center;
     
 }
@@ -69,7 +80,7 @@ body{
 
 /*navigation bar*/
 .navbar nav {
-    background-color: rgb(44, 42, 42);
+    background-color: rgb(21, 21, 21);
     /* padding: 0.3vh; */
     color: white;
     border-radius: 40px;
@@ -79,8 +90,9 @@ body{
     padding-right: 1cm;
     /* background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: darken; */
-    position: absolute;
-    z-index: 1000;
+    position: fixed;
+    z-index: 1;
+    bottom: 10%;
 
 
 }
@@ -101,7 +113,8 @@ body{
 
 
 .navbar nav a:hover {
-    color: gray
+    color: gray;
+    padding: 10px 0;
 }
 .navbar nav a:active {
     color: #aaa;
