@@ -1,0 +1,34 @@
+.events{
+    display: flex;
+    height: 100vh;
+    width: 80vw;
+    overflow: hidden;
+
+}
+.accra{
+    background-image: url(Images/accra.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 60vw;
+    
+}
+.nairobi{
+    background-image: url(Images/nairobi.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 60vw;
+
+
+}
+.zanzibar{
+    background-image: url(Images/ankolegrill-kitisuru\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 60vw;
+}
+.addis{
+    background-image: url(Images/imageloc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 60vw;
+}

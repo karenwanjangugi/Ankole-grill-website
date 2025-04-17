@@ -1,5 +1,5 @@
 /*menu*/
-body{
+/* body{
     padding: 0;
     margin: 0;
     overflow-y: hidden;
@@ -125,3 +125,86 @@ padding-top: 0;
 .logoanditems{
     display: flex;
 }
+
+@media only screen and  (max-width: 500px) and (min-width: 0px){
+    
+    
+    .kitisuruimage{
+        
+        
+        padding: 10cm;
+        text-align: center;
+        padding-top: 5cm;
+        width: 5cm;
+        padding-left: 3cm;
+    }
+   
+    
+    .kitisuruimage img{
+        
+        height: 3cm;
+    
+    }
+    .kitisurumenu{
+        display: block;
+        background-image: url(Images/ankolemenu.jpg);height: 30cm; width: 30cm;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 10cm;
+        height: 23.6cm;
+        overflow: visible;
+        color: rgba(0, 0, 0, 1);
+        background-blend-mode: darken;
+        
+        
+        
+    }
+    
+    .menuitems{
+        
+        width: 10cm;
+        display: grid;
+        color: white;
+        background-color: black;
+        float: right;
+        position: absolute;
+        right: 0;
+        
+        
+        
+    
+    }
+    .menufilter{
+    
+    width: 10cm;
+    }
+    
+    .menufilter ul{
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+        color: gray;
+        
+    }
+    
+    
+    .specificitems{
+        
+        height: 5cm;
+        overflow-y: scroll;
+        padding: 25px;
+        padding-top: 5cm;
+    
+    
+    }
+    
+   
+
+    
+}
+@media only screen and ( max-width: 800px) and (min-width: 501px){
+
+}
+@media only screen and (max-width: 1200px) and (min-width: 801px){
+
+} */
