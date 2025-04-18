@@ -101,6 +101,9 @@ body{
 
 
 }
+input{
+    color: white;
+}
 
 /* .navbar nav #reservations:hover{
 background-color: white;

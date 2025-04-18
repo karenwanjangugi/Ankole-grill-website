@@ -13,13 +13,26 @@ body{
     padding-top: 5cm;
     width: 10cm;
     padding-left: 7cm;
+    font-family: my_font;
+    line-height: 90%;
+
 }
+
 .kitisuruimage h1{
-    color: darkorange;
+    color: rgb(191, 67, 22);
+    font-size: 60px;
+    font-weight: 300;
+
+}
+.kitisuruimage h2{
+    font-weight: 100;
+    font-size: 30px;
+    margin-top: 15vh;
 }
 .kitisuruimage img{
     
-    height: 5cm;
+    height: 22vh;
+    margin-top: -12vh;
 
 }
 .kitisurumenu{
@@ -46,10 +59,13 @@ body{
     float: right;
     position: absolute;
     right: 0;
-    
-    
-    
 
+}
+
+#description{
+    font-family: sans-serif;
+    color: #aaa;
+    letter-spacing: 0.4px;
 }
 .menufilter{
 
@@ -72,22 +88,38 @@ color: darkorange;
 }
 .specificitems{
     
-    height: 71.1vh;
+    height: 81.83vh;
     overflow-y: scroll;
     padding: 25px;
-    padding-top: 5cm;
+    padding-top: 10vh;
     scroll-behavior: smooth;
-
-
-}
-.specificitems ul{
-    list-style-type: none;
     box-sizing: content-box;
-
+    font-family: my_font;
+    
 
 }
+
+#coffee{
+    color: rgb(191, 67, 22);
+    font-family: sans-serif;
+    font-size: 22px;
+
+}
+#breakfast{
+    color: white;
+}
+#time{
+    color: #aaa;
+    line-height: 1.5vh;
+}
+
+.specificitems p{
+    line-height: 1vh;
+
+}
+
 .specificitems h2{
-    color: darkorange;
+    color: grey;
 }
 .coffee{
     display: flex;
@@ -179,6 +211,7 @@ padding-top: 0;
     gap: 4vh;
     color: #aaa;
     font-size: larger;
+    align-items: center;
 }
 .navbar nav i:hover{
     background-color: white;
@@ -240,6 +273,12 @@ padding-top: 0;
   .tooltipmenu:hover .tooltipmenutext{
     visibility: visible;
   }
+
+  @font-face {
+    font-family: "my_font";
+    src: url(fonts/Type\ Machine.ttf);
+    font-weight: 100;
+}
 
 
 @media only screen and  (max-width: 500px) and (min-width: 0px){

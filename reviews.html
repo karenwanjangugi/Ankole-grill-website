@@ -9,64 +9,135 @@
 
 </head>
 <body>
-    <div class="reviews">
-        <img src="Images/ankolelogo.svg">
-        <h1>Reviews</h1>
-        <i id="revleft" class='bx bxs-quote-alt-left'></i>
-        <div class="reviewtext">
-        <p>This place is run by educated, innovative &creative people! The architectural layout, seating, ambience,<br>
-             lighting,cutlery: servings, design; has been impeccably well thought out! Even thewashrooms were <br>
-             excellent!The food was AWESOME! This is surprising consideringthe fact we were there on a Saturday night<br>
-              & they almost had no space!We were extremely well serviced too!Rare to find such finesse in Kenya! You <br>
-              must go visitthem!</p>
-        <a href="reviews1.html"><i id="arrowright" class='bx bx-chevron-right'></i></a>
-        </div><i id="revright" class='bx bxs-quote-alt-right' ></i>
-              <p>Irfan Virji</p>
-              <p>KITISURU</p>
-    </div>
+    <div class="slideshow-container">
 
-    <div class="navbar">
-        <nav>
-    
-            <ul>
-                <div class="tooltipmenu">
-                <i class='bx bx-menu' >
-                <span class="tooltipmenutext">
-                    
-                        <p><a href="index.html">Home</a></p>
-                        <hr>
-                        <p><a href="menu.html">Menu</a></p>
-                        <hr>
-                        <p><a href="reviews.html">Reviews</a></p>
-                        <hr>
-                        <p><a href="contacts.html">Contacts</a></p>
-                        <hr>
-                        <p><a href="events.html">Events</a></p>
-                        <hr>
-                        <p><a href="live.html">Live</a></p>
-                    
-                </span></i></div>
-                <div class="tooltip">
-                <i class='bx bx-time'>
-                <span class="tooltiptext">
-                    <h1>Opening hours</h1>
-                    <p><b>Kitisuru</b></p>
-                    <p>Mon-Sun</p>
-                    <p>9.00am - 11.00am</p>
-                    <p><b>Kilimani</b></p>
-                    <p>Mon - Sun</p>
-                    <p>7.30am - 11.00pm</p>
-                </span></i></div>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Reviews</a></li>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">Live</a></li>
-                <li><a href="contacts.html">Contacts</a></li>
-                <li id="reservations"><a href="#">Reservations</a></li>
-            </ul>
-    
-        </nav>
+        <!-- Full-width slides/quotes -->
+
+            
+     
+        <div class="reviews">
+                <img src="Images/ankolelogo.svg">
+                <h1>Reviews</h1>
+                <i id="revleft" class='bx bxs-quote-alt-left'></i>
+
+          <p>Ankole grill is a one of a kind gem located at theheart of Kilimani.<br>
+             Good vibes and inshallah is what you're guaranteed to get at this place.</p>
+          <i id="revright" class='bx bxs-quote-alt-right' ></i>
+
+          <p>Davies Tanyassis</p>
+          <p>KILIMANI</p>
         </div>
+      
+        <div class="reviews">
+            <img src="Images/ankolelogo.svg">
+                <h1>Reviews</h1>
+                <i id="revleft" class='bx bxs-quote-alt-left'></i>
+
+          <p>We had an amazing time for my brothersbirthday....  Food is great, amounts aregenerous,<br>
+            the price is reasonable, the staff are superb will definitely bereferring guys there</p>
+            <i id="revright" class='bx bxs-quote-alt-right' ></i>
+
+          <p>Sylvia Wanjohi</p>
+
+          <p>KITISURU</p>
+        </div>
+      
+        <div class="reviews">
+            <img src="Images/ankolelogo.svg">
+                <h1>Reviews</h1>
+                <i id="revleft" class='bx bxs-quote-alt-left'></i>
+          <p>This place is run by educated, innovative &creative people! The architectural layout, seating, ambience, lighting,cutlery:<br>
+             servings, design; has been impeccably well thought out! Even thewashrooms were excellent!<br>
+            The food was AWESOME! This is surprising consideringthe fact we were there on a Saturday night & they <br>
+            almost had no space!We were extremely well serviced too!Rare to find such finesse in Kenya! You must go visitthem!</p>
+            <i id="revright" class='bx bxs-quote-alt-right' ></i>
+
+          <p>Irfan Virji</p>
+          <p>KITISURU</p>
+        </div>
+      
+        <!-- Next/prev buttons -->
+        <a class="prev" onclick="plusSlides(-1)"><i id="arrowleft" class='bx bx-chevron-left'></i></a>
+        <a class="next" onclick="plusSlides(1)"><i id="arrowright" class='bx bx-chevron-right'></i></a>
+      </div>
+
+
+      <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("reviews");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+
+<div class="navbar">
+    <nav>
+
+        <ul>
+            <div class="icons">
+            <div class="tooltipmenu">
+            <i class='bx bx-menu' >
+            <span class="tooltipmenutext">
+                
+                    <p><a href="index.html">Home</a></p>
+                    <hr>
+                    <p><a href="menu.html">Menu</a></p>
+                    <hr>
+                    <p><a href="reviews.html">Reviews</a></p>
+                    <hr>
+                    <p><a href="contacts.html">Contacts</a></p>
+                    <hr>
+                    <p><a href="events.html">Events</a></p>
+                    <hr>
+                    <p><a href="live.html">Live</a></p>
+                
+            </span></i></div>
+            <div class="tooltip">
+            <i class='bx bx-time'>
+            <span class="tooltiptext">
+                <h1>Opening hours</h1>
+                <p><b>Kitisuru</b></p>
+                <p>Mon-Sun</p>
+                <p>9.00am - 11.00am</p>
+                <p><b>Kilimani</b></p>
+                <p>Mon - Sun</p>
+                <p>7.30am - 11.00pm</p>
+            </span></i></div>
+            </div>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="live.html">Live</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+            <li id="reservations"><a href="#">Reservations</a></li>
+        </ul>
+
+    </nav>
+    </div>
+        
+      
+     
 </body>
 </html>

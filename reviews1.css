@@ -68,9 +68,11 @@ body{
 #arrowleft{
     margin-left: -20vh;
     /* padding: 0; */
+    position: fixed;
 }
 #arrowright{
     margin-left: -10vh;
+    position: fixed;
 }
 
 

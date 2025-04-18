@@ -4,9 +4,9 @@ body{
     
 }
 
-.reviewtext{
+/* .reviewtext{
     display: flex;
-    /* width: 85vh; */
+    /* width: 85vh; 
     margin-left: 60vh;
     font-family: serif;
 
@@ -37,7 +37,7 @@ body{
     padding-top: 4vh;
     margin-left: 2vh;
     font-size: 60px;
-    /* border: solid; */
+    /* border: solid; 
     
     
 }
@@ -45,7 +45,7 @@ body{
     color: grey;
 
 }
-
+*/
 #revright{
     color: rgb(191, 67, 22);
     font-size: 30px;
@@ -55,7 +55,84 @@ body{
     color: rgb(191, 67, 22);
     font-size: 30px;
     margin-right: 80vh;
+} 
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+  }
+  
+  /* Slides */
+  .reviews {
+    display: none;
+    padding: 80px;
+    text-align: center;
+    color: white;
+    scroll-behavior: smooth;
+    /* position: fixed; */
+    /* margin-left: 50vh;*/
+    /* margin-top: 0vh;  */
+  }
+  .reviews h1{
+    font-family: my_font;
+    font-size: 50px;
+  }
+  .reviews{
+    font-family: sans-serif;
+    line-height: 3vh;
+    font-weight: 600;
+  }
+  
+  /* Next & previous buttons */
+.prev, .next{
+    cursor: pointer;
+    /* position: absolute; */
+    top: 50%;
+    /* width: 48vh; */
+    /* margin-top: -30px; */
+    padding: 16px;
+    color: gray;
+    font-weight: 100;
+    opacity: 0.5;
+    font-size: 60px;
+    /* border: solid; */
+    margin-left: 45vh;
+
+    /* border-radius: 0 3px 3px 0; */
+    /* user-select: none; */
+  }
+  .prev{
+   position: fixed
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: fixed;
+    margin-left: 155vh;
+    /* top: 65%; */
+
+  }
+  
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    /* background-color: rgba(0,0,0,0.8); */
+    color: white;
+  }
+  
+ 
+  
+  .reviews img{
+    height: 20vh;
+    margin-bottom: 5vh;
+    /* position: absolute; */
+    /* border: solid; */
 }
+
+  
+ 
+  
+ 
 
 @font-face {
     font-family: "my_font";
@@ -64,15 +141,22 @@ body{
 }
 
 
-/*navigation bar*/
 .navbar nav {
-    background-color:rgb(19, 18, 18) ;
+    background-color:rgb(19, 17, 17);
+    /* padding: 0.3vh; */
     color: white;
     border-radius: 40px;
-    margin-top:8vh;
+    bottom: 0;
+    margin-bottom: 7vh;
+
     margin-left: 30vw;
+    /* margin: auto 0; */
     padding-right: 1cm;
+    /* background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken; */
     position: absolute;
+    z-index: 2000;
+    /* border: solid 10px; */
 
 
 }
@@ -81,13 +165,19 @@ body{
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    gap:10px
+    gap:10px;
+    align-content: center;
+    /* border: solid; */
+    margin-right: -1vw;
+
 
 }
 .navbar nav a {
     color: black;
     text-decoration: none;
     color: white;
+    font-family: sans-serif;
+   
    
 }
 
@@ -101,24 +191,22 @@ body{
 .navbar nav a {
     transition: color 0.1s ease;
     padding: 10px 0px;
+    font-size: 17px;
 }
 .navbar nav i{
     padding: 11px 0px;
     height: 1vh;
-    padding-top: 1.8vh;
+    /* padding-top: 1.8vh; */
     gap: 4vh;
     color: #aaa;
-    font-size: 20px;
-    
+    font-size: larger;
 }
-.navbar nav i:hover{
+/* .navbar nav i:hover{
     background-color: white;
     border-radius: 25px;
-    /* padding: 10px 10px; */
-    border: solid;
-    
+    padding: 10px 10px;
 
-}
+} */
 .navbar nav li{
     padding: 15px;
 }
@@ -129,20 +217,22 @@ body{
 .tooltip {
     position: relative;
     display: inline-block;
+    border-bottom: 1px dotted black;
   }
   
   .tooltip .tooltiptext {
     visibility: hidden;
-    width: 190px;
+    width: 200px;
     background-color: white;
     color: black;
     text-align: left;
     border-radius: 7px;
     padding: 15px;
     position: absolute;
+    z-index: 1;
     bottom: 60px;
     margin-left: -90px;
-    
+    font-size: 20px;
   }
   
  
@@ -163,6 +253,7 @@ body{
     margin-left: -90px;
     padding: 10px;
     border-radius: 7px;
+    font-size: 20px;
     
 
     
@@ -171,3 +262,23 @@ body{
   .tooltipmenu:hover .tooltipmenutext{
     visibility: visible;
   }
+  .image{
+    position: absolute;
+    margin-top: 6vh;
+  }
+  .image img{
+    height: 20vh;
+    margin-bottom: 5vh;
+    margin-left: 93vh;
+    
+    
+}
+
+.icons{
+    display: flex;
+    gap: 1.2vw;
+    font-size: 22px;
+    /* border: solid; */
+    padding: 0;
+    margin-left: -1vw;
+}

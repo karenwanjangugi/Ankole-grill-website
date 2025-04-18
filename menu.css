@@ -5,22 +5,30 @@ body{
 }
 .restaurants{
   display: flex;
+  line-height: 90%;
+  
 }
 .restaurants h4{
-    color: darkorange;
+    color:  rgb(191, 67, 22);;
     text-align: center;
     margin-top: 8cm;
-    font-size: large;
+    font-size: 30.4px;
+    font-family: my_font;
+    font-weight: 400;
+    /* margin-top: 40vh; */
+    margin: auto a;
     
     
 
 }
 .restaurants h1{
     text-align: center;
+    padding: 16px 0px 0px;
 }
 .restaurants p{
     color: white;
     text-align: center;
+    font-size: 16px;
     
 }
 .Kitisuru{
@@ -30,6 +38,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     overflow: visible;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
   
     
     
@@ -86,7 +96,7 @@ body{
 
 /*navigation bar*/
 .navbar nav {
-    background-color: rgb(44, 42, 42);
+    background-color: rgb(12, 11, 11);
     color: white;
     border-radius: 40px;
     margin-top:-4cm;
@@ -96,19 +106,25 @@ body{
     z-index: 1000;
 
 
+
 }
 
 .navbar nav ul {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    gap:10px
+    gap:10px;
+    /* border: solid; */
+    margin-right: -2vh;
+
 
 }
 .navbar nav a {
     color: black;
     text-decoration: none;
     color: white;
+    font-size: 18px;
+    font-family: sans-serif;
    
 }
 
@@ -126,17 +142,17 @@ body{
 .navbar nav i{
     padding: 11px 0px;
     height: 1vh;
-    padding-top: 1.8vh;
+    /* padding-top: 1.8vh; */
     gap: 4vh;
     color: #aaa;
     font-size: larger;
 }
-.navbar nav i:hover{
+/* .navbar nav i:hover{
     background-color: white;
     border-radius: 25px;
     padding: 10px 10px;
 
-}
+} */
 .navbar nav li{
     padding: 15px;
 }
@@ -162,6 +178,7 @@ body{
     z-index: 1;
     bottom: 60px;
     margin-left: -90px;
+    font-size: 20px;
     
   }
   
@@ -183,6 +200,7 @@ body{
     margin-left: -90px;
     padding: 10px;
     border-radius: 7px;
+    font-size: 20px;
     
 
     
@@ -191,6 +209,15 @@ body{
   .tooltipmenu:hover .tooltipmenutext{
     visibility: visible;
   }
+
+  .icons{
+    display: flex;
+    gap: 1.2vw;
+    font-size: 22px;
+    /* border: solid; */
+    padding: 0px;
+    margin-left: -1.5vw;
+}
 
 
 
