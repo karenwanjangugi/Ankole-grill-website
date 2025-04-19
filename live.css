@@ -31,6 +31,7 @@ body{
     font-weight: 100;
     transition: 0.8s ease-out;
     letter-spacing: -0.5vh;
+    font-family: sans-serif;
 }
 
 .title h4{
@@ -47,6 +48,7 @@ body{
     overflow: scroll;
     transition: 0.5s ease-out;
     margin-bottom: 10vh;
+    border-radius: 10px;
 
 
 }
@@ -106,7 +108,7 @@ transform: scale(1.1);
 .eventtext p{
     color: rgb(191, 67, 22);
     margin-top: 10vh;
-    font-family: my_font;
+    font-family: sans-serif;
 
 }
 
@@ -255,31 +257,19 @@ transform: scale(1.1);
     margin-left: -1vw;
 }
 
-@media only screen and (max-width: 400px) and (min-width: 0px){
-    body{
-        margin: 0;
-        padding: 0;
-        background-color: black;
-        
-    
-    }
+@media only screen and (max-width: 480px) and (min-width: 0px){
+   
     
     
     
     .tukatikeback{
-        background-image: url(Images/sunsetdrum.jpg);
-        background-repeat: repeat-y;
-        background-size: contain;
+        
+        width: 105vw;
     
         color: white;
         padding: 20px;
-        background-color: rgba(0, 0, 0, 0.7);
-        background-blend-mode: darken;
-        text-align: center;
-        overflow: scroll;
-        height: 450vh;
-        overflow-x: hidden;
-        overflow-y: hidden;  
+       
+        height: 480vh;
         
     }
     
@@ -288,8 +278,7 @@ transform: scale(1.1);
         margin-left: 2cm;
         font-size: 50px;
         font-weight: 100;
-        transition: 0.8s ease-out;
-        letter-spacing: -0.5vh;
+       
     }
     
     .title h4{
@@ -305,8 +294,7 @@ transform: scale(1.1);
         height: 45vh;
         width: 90vw;
         overflow: scroll;
-        transition: 0.5s ease-out;
-        margin-bottom: 10vh;
+        
     
     
     }
@@ -361,16 +349,19 @@ transform: scale(1.1);
     }
     .eventtext h1{
         font-family: my_font;
-        font-size: 25px;
+        font-size: 24px;
         font-weight: 100;
-        /* white-space: nowrap; */
-        line-height: 80%;
+        white-space: nowrap tailwind;
+        /* line-height: 90%; */
+        /* white-space: pre-warp; */
     
     }
     .eventtext p{
         color: rgb(191, 67, 22);
         margin-top: 10vh;
         font-family: my_font;
+        font-size: 24px;
+
     
     }
 
@@ -391,20 +382,16 @@ transform: scale(1.1);
         color: white;
         border-radius: 40px;
         margin-top:-15vh;
-        margin-left: 8vh;
+        margin-left: 20vw;
         /* padding-right: 1cm; */
-        width: 60vw ;
+        width: 50vw ;
        
         position: fixed;
     
     
     }
     
-    .navbar nav ul {
-        
-        gap:10px
     
-    }
   .navbar nav a{
       font-size: smaller;
   }
@@ -422,6 +409,312 @@ transform: scale(1.1);
   }
     
 }
+@media only screen and (max-width: 710px) and (min-width: 481px){
+
+
+    .tukatikeback{
+        
+        width: 105vw;
     
+        color: white;
+        padding: 20px;
+       
+        height: 230vh;
+        
+    }
+    
+    .title h1{
+        color:rgb(191, 67, 22);
+        margin-left: 2cm;
+        font-size: 50px;
+        font-weight: 100;
+       
+    }
+    
+    .title h4{
+        margin-left: 2cm;
+        font-size: 20px;
+        font-weight: 100;
+
+    }
+    .images img{
+        display: block;
+        /* margin: 2cm; */
+        /* margin-left: 30cm; */
+        height: 23vh;
+        width: 30vw;
+        overflow: scroll;
+        border-radius: 10px;
+        
+    
+    
+    }
+    .eventtext{
+        margin-left: 2vh;
+    }
+    
+    
+    
+    
+    
+    
+    .images{
+        height: 50vh;
+        width: 40%;
+        position: absolute;
+        right: 200px;
+        margin-top: 60vh;
+    }
+    
+    
+    .title{
+       /* margin-bottom: -20cm;/ */
+       position: absolute;
+       color: white;
+       width: 80%;
+       /* border: solid; */
+       /* margin-left: 50vh; */
+       /* margin-top: 15vh; */
+       text-align: center;
+       line-height: 90%;
+       font-family: my_font;
+       right: 55px;
+        
+    }
+    .title img{
+        height: 20vh;
+        margin-bottom: 8vh;
+        margin-left: 10vh;
+        margin-top: 2vh;
+        
+        
+    }
+    .event{
+        display: flex;
+    }
+    
+    .eventtext{
+        text-align: left;
+    }
+    .eventtext h1{
+        font-family: my_font;
+        font-size: 26px;
+        font-weight: 100;
+        /* white-space: nowrap tailwind; */
+        line-height: 90%;
+        /* white-space: pre-warp; */
+    
+    }
+    .eventtext p{
+        color: rgb(191, 67, 22);
+        margin-top: -5vh;
+        font-family: my_font;
+        font-size: 24px;
+
+    
+    }
+
+    .titleandimages{
+        display: flex;
+    }
+
+
+    
+    @font-face {
+        font-family: "my_font";
+        src: url(fonts/Type\ Machine.ttf);
+        font-weight: 100;
+    }
+
+    /*navigation bar*/
+    .navbar nav {
+        background-color: rgb(13, 12, 12);
+        /* padding: 0; */
+        color: white;
+        border-radius: 40px;
+        margin-top:-15vh;
+        margin-left: 20vw;
+        /* padding-right: 1cm; */
+        width: 35vw ;
+       
+        position: fixed;
+    
+    
+    }
+    
+    
+  .navbar nav a{
+      font-size: smaller;
+  }
+
+  #home{
+      display: none;
+    }
+   
+  #reservations{
+      margin-left: -32vh;
+      /* padding: ; */
+  }  
+  .icons{
+      gap: 3vh;
+  }
+    
+}   
+
+@media only screen and (max-width: 1000px) and (min-width: 711px){
+
+    .tukatikeback{
+        
+        width: 105vw;
+    
+        color: white;
+        padding: 20px;
+       
+        height: 230vh;
+        
+    }
+    
+    .title h1{
+        color:rgb(191, 67, 22);
+        margin-left: 2cm;
+        font-size: 50px;
+        font-weight: 100;
+       
+    }
+    
+    .title h4{
+        margin-left: 2cm;
+        font-size: 20px;
+        font-weight: 100;
+
+    }
+    .images img{
+        display: block;
+        /* margin: 2cm; */
+        /* margin-left: 30cm; */
+        height: 23vh;
+        width: 30vw;
+        overflow: scroll;
+        border-radius: 10px;
+        
+    
+    
+    }
+    .eventtext{
+        margin-left: 2vh;
+    }
+    
+    
+    
+    
+    
+    
+    .images{
+        height: 50vh;
+        width: 40%;
+        position: absolute;
+        right: 200px;
+        margin-top: 60vh;
+    }
+    
+    
+    .title{
+       /* margin-bottom: -20cm;/ */
+       position: absolute;
+       color: white;
+       width: 80%;
+       /* border: solid; */
+       /* margin-left: 50vh; */
+       /* margin-top: 15vh; */
+       text-align: center;
+       line-height: 90%;
+       font-family: my_font;
+       right: 55px;
+        
+    }
+    .title img{
+        height: 20vh;
+        margin-bottom: 8vh;
+        margin-left: 10vh;
+        margin-top: 2vh;
+        
+        
+    }
+    .event{
+        display: flex;
+    }
+    
+    .eventtext{
+        text-align: left;
+    }
+    .eventtext h1{
+        font-family: my_font;
+        font-size: 26px;
+        font-weight: 100;
+        /* white-space: nowrap tailwind; */
+        line-height: 90%;
+        /* white-space: pre-warp; */
+    
+    }
+    .eventtext p{
+        color: rgb(191, 67, 22);
+        margin-top: -5vh;
+        font-family: my_font;
+        font-size: 24px;
+
+    
+    }
+
+    .titleandimages{
+        display: flex;
+    }
+
+
+    
+    @font-face {
+        font-family: "my_font";
+        src: url(fonts/Type\ Machine.ttf);
+        font-weight: 100;
+    }
+
+    /*navigation bar*/
+    .navbar nav {
+        background-color: rgb(13, 12, 12);
+        /* padding: 0; */
+        color: white;
+        border-radius: 40px;
+        margin-top:-15vh;
+        margin-left: 0vw;
+        /* padding-right: 1cm; */
+        width: 100vw ;
+       
+        position: fixed;
+    
+    
+    }
+    .navbar nav ul{
+        gap: 1px;
+    }
+    
+    
+  .navbar nav a{
+      font-size: smaller;
+      gap: 1px;
+  }
+
+  /* #home{
+      display: none;
+    } */
+   
+  #reservations{
+      /* margin-left: -32vh; */
+      /* padding: ; */
+  }  
+  .icons{
+      gap: 3vh;
+  }
+    
+}   
+
 
 

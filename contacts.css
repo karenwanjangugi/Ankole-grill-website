@@ -197,95 +197,102 @@ body{
 
 
 
-@media only screen and (max-width: 500px) and (min-width: 0px){
+@media only screen and (max-width: 400px) and (min-width: 0px){
     body{
         margin: 0;
         padding: 0;
         margin-top: 0;
+        background-color: black;
     }
     
     
     .contactback{
-        background-image: url(Images/contactback.jpg);
-        background-size: cover;
-        height: 100vh;
+        height: 120vh;
         color: white;
-        display: flex;
-        gap: 30px;
+        display: block;
+        /* gap: 10px; */
         position:relative;
+        top: 0;
+        width:115vw;
+        overflow-x: hidden;
         
     
     }
     
     .image img{
-        height: 4cm;
+        /* height: 1vh; */
         margin-left: 3.5cm;
-        position: absolute;
-        margin-top: 1vh;
+        position: fixed;
+        /* margin-top: 1vh; */
+        margin-top: 35vh;
+        
+
     }
 
     .kitisuru{
-        border: solid ;
-        height: 40vh;
-        margin-left: 1px;
-        margin-top: 24vh;
+        height: 35vh;
+        margin-left: 15px;
+        margin-bottom: 10vh;
         padding: 8px;
-        font-size: smaller;
+        font-size: 15px;
+        margin-top: 40px;
+        width: 35vh;
+        padding-top: 1px;
+        
+        
         
         
     
         
     }
     .kilimani{
-        border: solid white;
-        height: 50vh;
-        margin-top: 24vh;
+        height: 42vh;
+        margin-top: -7vh;
         padding: 20px;
-        font-size: smaller;
+        font-size: 15px;
+        margin-left: 15px;
+        width: 38vh;
+        padding-top: 0px;
     }
 
-    /*navigation bar*/
-.navbar nav {
-    background-color: black;
-    padding: 0cm;
-    color: white;
-    border-radius: 40px;
-    margin-top:-3cm;
-    margin-left: 1cm;
-    padding-right: 1cm;
+
+     /*navigation bar*/
+     .navbar nav {
+        background-color: rgb(13, 12, 12);
+        /* padding: 0; */
+        color: white;
+        border-radius: 40px;
+        /* margin-top: 10vh; */
+        margin-left: 8vh;
+        padding-right: 15vw;
+        width: 60vw ;
+       /* z-index: -10 ; */
+        /* position: fixed; */
+        
+    
+    
+    }
+    
+    .navbar nav ul {
+        
+        gap:10px
+    
+    }
+  
+
+  #home{
+      display: none;
+    }
    
-    position: absolute;
-    font-size: x-small;
-
-
+  #reservations{
+      margin-left: -32vh;
+  }  
+  .icons{
+      gap: 2vh;
+  }
+    
 }
-
-.navbar nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    gap:6px
-
-}
-.navbar nav a {
-    color: black;
-    text-decoration: none;
-    color: white;
-   
-}
-
-
-.navbar nav a:hover {
-    color: orange
-}
-.navbar nav a:active {
-    color: #aaa;
-}
-.navbar nav a {
-    transition: color 0.1s ease;
-}
-}
-@media only screen and (max-width: 800px) and (min-width: 501px){
+@media only screen and (max-width: 800px) and (min-width: 401px){
     
     body{
         margin: 0;
@@ -295,76 +302,78 @@ body{
     
     
     .contactback{
-        background-image: url(Images/contactback.jpg);
         background-size: cover;
-        height: 100vh;
+        height: 120vh;
         color: white;
-        display: flex;
-        gap: 50px;
+        display: block;
+        /* gap: 50px; */
         position:relative;
+        margin-top: 0;
+        width: 115vw;
+        
         
     
     }
 
     .image img{
-        height: 3cm;
-        margin-left: 8cm;
+        height: 20vh;
+        margin-left: 15vh;
+        position: fixed;
+        margin-top: 40vh;
     }
     .kitisuru{
         border: solid ;
-        height: 40vh;
+        height: 35vh;
         margin-left: 2vh;
-        margin-top: 20vh;
+        margin-bottom: 6vh;
         padding: 10px;
+        margin-top: 0;
     
         
     }
     .kilimani{
         border: solid white;
-        height: 50vh;
-        margin-top: 20vh;
+        height: 40vh;
+        margin-top: 4vh;
         padding: 20px;
     }
-    /*navigation bar*/
-.navbar nav {
-    background-color: black;
-    padding: 0cm;
-    color: white;
-    border-radius: 40px;
-    margin-top:-3cm;
-    margin-left: 4cm;
-    padding-right: 1cm;
    
-    position: absolute;
-    font-size: x-small;
 
+     /*navigation bar*/
+     .navbar nav {
+        background-color: rgb(13, 12, 12);
+        /* padding: 0; */
+        color: white;
+        border-radius: 40px;
+        /* margin-top: 10vh; */
+        margin-left: 8vh;
+        padding-right: 5vw;
+        width: 60vw ;
+       /* z-index: -10 ; */
+        /* position: fixed; */
+        
+    
+    
+    }
+    
+    .navbar nav ul {
+        
+        gap:10px
+    
+    }
+  
 
-}
-
-.navbar nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    gap:25px
-
-}
-.navbar nav a {
-    color: black;
-    text-decoration: none;
-    color: white;
+  #home{
+      display: none;
+    }
    
-}
-
-
-.navbar nav a:hover {
-    color: orange
-}
-.navbar nav a:active {
-    color: #aaa;
-}
-.navbar nav a {
-    transition: color 0.1s ease;
-}
+  #reservations{
+      margin-left: -32vh;
+  }  
+  .icons{
+      gap: 2vh;
+  }
+    
 }
 @media only screen and (max-width: 1200px) and (min-width: 801px){
     
@@ -376,12 +385,10 @@ body{
     
     
     .contactback{
-        background-image: url(Images/contactback.jpg);
-        background-size: cover;
         height: 100vh;
         color: white;
         display: flex;
-        gap: 68px;
+        gap: 65px;
         position:relative;
         
     
@@ -389,7 +396,7 @@ body{
     .kitisuru{
         border: solid ;
         height: 40vh;
-        margin-left: 10vh;
+        margin-left: 2vh;
         margin-top: 20vh;
         padding: 10px;
     
@@ -397,7 +404,7 @@ body{
     }
 
     .image img{
-        height: 3cm;
+        height: 15vh;
         margin-left: 10cm;
         position: absolute;
         margin-top: 1vh;
@@ -407,15 +414,16 @@ body{
         height: 50vh;
         margin-top: 20vh;
         padding: 20px;
+        margin-right: 18px;
     }
     /*navigation bar*/
 .navbar nav {
-    background-color: black;
-    padding: 0.2cm;
+    background-color: rgb(14, 14, 14);
+    /* padding: 0.2cm; */
     color: white;
     border-radius: 40px;
     margin-top:-3cm;
-    margin-left: 3cm;
+    margin-left: 4vh;
     padding-right: 1cm;
    
     position: absolute;
@@ -424,27 +432,16 @@ body{
 }
 
 .navbar nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    gap:40px
+    gap:5px
 
-}
-.navbar nav a {
-    color: black;
-    text-decoration: none;
-    color: white;
-   
 }
 
 
-.navbar nav a:hover {
-    color: orange
+
+.icons{
+    gap: 2vh;
 }
-.navbar nav a:active {
-    color: #aaa;
-}
-.navbar nav a {
-    transition: color 0.1s ease;
-}
+  
+
+
 }

@@ -188,3 +188,152 @@ body{
     
     
 }
+@media only screen and (max-width: 400px) and (min-width: 0px){
+
+    body{
+        margin: 0;
+    }
+    
+    
+    .events{
+        display: block;
+        height: 80vh;
+        width: 100vw;
+        overflow-x: hidden;
+        color: white;
+        text-align: center;
+        
+    
+    }
+    .divtext{
+        margin-top: 35vh;
+        
+    }
+    .divtext h1{
+        font-family: my_font;
+        font-size: 48px;
+        font-weight: 250;
+        letter-spacing: -5px;
+        line-height: 90%;
+    }
+    .accra{
+        background-image: url(Images/accra.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100vw;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: darken;
+        
+    }
+    .nairobi{
+        background-image: url(Images/nairobi.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 60vw;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: darken;
+    
+    
+    }
+    .zanzibar{
+        background-image: url(Images/ankolegrill-kitisuru\ \(1\).jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 60vw;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: darken;
+    
+    }
+    #pavilion{
+        color: darkgray;
+    
+    }
+    #capacity{
+        color: #FACE8D;
+        font-family: serif;
+    }
+    @font-face {
+        font-family: "my_font";
+        src: url(fonts/Type\ Machine.ttf);
+        font-weight: 100;
+        
+    }
+    /*navigation bar*/
+    .navbar nav {
+        background-color:rgb(19, 17, 17);
+        /* padding: 0.3vh; */
+        color: white;
+        border-radius: 40px;
+        margin-top:-4cm;
+        margin-left: 30vw;
+        /* margin: auto 0; */
+        padding-right: 1cm;
+        /* background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: darken; */
+        position: absolute;
+        z-index: 1000;
+    
+    
+    }
+    
+    .navbar nav ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        gap:10px
+    
+    }
+    .navbar nav a {
+        color: black;
+        text-decoration: none;
+        color: white;
+       
+    }
+    
+    
+    .navbar nav a:hover {
+        color: gray
+    }
+    .navbar nav a:active {
+        color: #aaa;
+    }
+    .navbar nav a {
+        transition: color 0.1s ease;
+        padding: 10px 0px;
+    }
+    .navbar nav i{
+        padding: 11px 0px;
+        height: 1vh;
+        padding-top: 1.8vh;
+        gap: 4vh;
+        color: #aaa;
+        font-size: larger;
+    }
+    .navbar nav i:hover{
+        background-color: white;
+        border-radius: 25px;
+        padding: 10px 10px;
+    
+    }
+    .navbar nav li{
+        padding: 15px;
+    }
+    #reservations{
+        background-color: #aaa;
+        border-radius: 25px;
+    }
+    
+      .image{
+        position: absolute;
+        margin-top: 6vh;
+      }
+      .image img{
+        height: 25vh;
+        margin-bottom: 5vh;
+        margin-left: 9vh;
+        
+        
+    }
+}
+    
+
