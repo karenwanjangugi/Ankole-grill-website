@@ -45,6 +45,7 @@ body{
     
 }
 
+
 .Kitisuru h1{
     color: white;
     padding: 10cm;
@@ -85,6 +86,14 @@ body{
     padding-bottom: 0cm;
     font-family: sans-serif;
     font-size: 50px;
+}
+.image img{
+    height: 20vh;
+    margin-bottom: -35vh;
+    margin-left: 45vw;
+    position: fixed;
+    margin-top: 10vh;
+
 }
 
 @font-face {
@@ -224,12 +233,15 @@ body{
  @media only screen and  (max-width: 500px) and (min-width: 0px){
     .restaurants{
         display: block;
+        line-height: 1px;
       }
       .restaurants h4{
           color: darkorange;
           text-align: center;
-          margin-top: 8cm;
+          margin-top: 15vh;
           font-size: large;
+          /* margin: auto ; */
+          inset: 0;
           
           
       
@@ -237,6 +249,10 @@ body{
       .restaurants h1{
           text-align: center;
           margin-left: -5cm;
+          margin: auto;
+          inset: 0;
+
+
           
       }
       .restaurants p{
@@ -245,8 +261,8 @@ body{
           
       }
       .Kitisuru{
-          width: 13cm;
-          height:20cm ;
+          width: 100vw;
+          height:50vh ;
           background-image: url(Images/ankole-grill-location.jpg);
           background-repeat: no-repeat;
           background-size: cover;
@@ -259,21 +275,25 @@ body{
       
       .Kitisuru h1{
           color: white;
-          padding: 10cm;
-          padding-top: 0cm;
-          padding-bottom: 0cm;
+          padding: 5vh;
+          /* padding-top: 0cm; */
+          /* padding-bottom: 0cm; */
+          font-size: 30px;
+          /* margin-left: ; */
+          /* line-height: ; */
           
          
       }
       .Kitisuru a{
           text-decoration: none;
           color: white;
+          
       
       
       }
       .Kilimani{
-          width:13cm ;
-          height: 20cm;
+          width:100vw ;
+          height: 50vh;
           background-image: url(Images/kilimani.jpg);
           background-repeat: no-repeat;
           background-size: cover;
@@ -284,28 +304,38 @@ body{
           
       }
      
-      
+      .image img{
+        height: 20vh;
+        margin-bottom: -35vh;
+        margin-left: 30vw;
+        position: fixed;
+        margin-top: 40vh;
+    
+    }
+    
       
       
       
       .Kilimani h1{
           color: white;
-          padding: 10cm;
-          padding-top: 0cm;
-          padding-bottom: 0cm;
+          padding: 5vh;
+          /* padding-top: 0cm; */
+          /* padding-bottom: 0cm; */
+          font-size: 30px;
       }
       
       
       
       /*navigation bar*/
       .navbar nav {
-          background-color: black;
-          padding: 0.2cm;
+          background-color: rgb(13, 12, 12);
+          /* padding: 0; */
           color: white;
           border-radius: 40px;
-          margin-top:-5cm;
-          margin-left: 0.5cm;
-          padding-right: 1cm;
+          margin-top:-15vh;
+          margin-left: 8vh;
+          /* padding-right: 1cm; */
+          width: 60vw ;
          
           position: absolute;
       
@@ -320,6 +350,17 @@ body{
     .navbar nav a{
         font-size: smaller;
     }
+
+    #home{
+        display: none;
+      }
+     
+    #reservations{
+        margin-left: -32vh;
+    }  
+    .icons{
+        gap: 3vh;
+    }
  }
   @media only screen and ( max-width: 800px) and (min-width: 501px){
 
@@ -333,11 +374,13 @@ body{
           font-size: x-small;
           
           
+          
       
       }
       .restaurants h1{
           text-align: center;
-          margin-left: -1cm;
+          margin-left: -1vh;
+          font-size: 20px;
           
       }
       .restaurants p{
@@ -365,11 +408,13 @@ body{
           padding-top: 0cm;
           padding-bottom: 0cm;
           
+          
          
       }
       .Kitisuru a{
           text-decoration: none;
           color: white;
+          font-size: 20px;
       
       
       }
@@ -385,6 +430,7 @@ body{
        
           
       }
+
      
       
       

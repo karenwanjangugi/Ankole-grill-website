@@ -19,6 +19,10 @@ body{
 }
 .divtext h1{
     font-family: my_font;
+    font-size: 48px;
+    font-weight: 250;
+    letter-spacing: -5px;
+    line-height: 90%;
 }
 .accra{
     background-image: url(Images/accra.jpg);
@@ -53,7 +57,8 @@ body{
 
 }
 #capacity{
-    color: rgb(241, 183, 74);
+    color: #FACE8D;
+    font-family: serif;
 }
 @font-face {
     font-family: "my_font";
