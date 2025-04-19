@@ -246,30 +246,22 @@ body{
     
     
     .reservationkaribu{
-        background-image: url(Images/reservationpic.avif);
-        background-repeat: no-repeat;
-        background-size: cover;
+        
         width: 100vw;
         height: 80vh;
-        background-color: rgba(0, 0, 0, 0.5);
-        background-blend-mode: darken;
+       
     }
     
     .reservationskaribucontent{
         margin-left: 20vh;
-        color: white;
-        text-align: center;
-        font-family: my_font;
+        
         margin-left: 4vh;
-        line-height: 95%;
+        
     }
-    .reservationskaribucontent img{
-        height: 25vh;
-        margin-top: 4vh;
-    }
+   
     
     #karibu{
-        font-size: 32px;
+        font-size: 25px;
         margin-top: 15vh;
     }
     #reservation{
@@ -278,8 +270,6 @@ body{
     }
     .form{
         padding: 50px;
-        color: white;
-        background-color: black;
         width: 65.5vw;
         padding-left: 7vh;
         padding-top:20px;
@@ -290,36 +280,24 @@ body{
     }
     .form input{
         padding: 15px;
-        background-color: black;
-        border: solid 1px gray;
+        
         width: 35vh;
         box-sizing: border-box;
         
     
     }
     
-    .form label{
-        margin: 10px;
-    }
+    
     
     .form button{
         width: 35vh;
         padding: 15px;
-        background-color: bisque;
         border-radius: 10px;
-        border: none;
         margin-top: 5vh;
     
     }
-    .form button:hover{
-        color: white;
-        background-color: rgb(207, 165, 88)
-    }
-    .form input:focus{
-        border: 1px;
-        border-radius: 0;
-       
-    }
+   
+   
     
     
     .reservations{
@@ -353,9 +331,7 @@ body{
         gap:10px
     
     }
-  .navbar nav a{
-      font-size: smaller;
-  }
+  
 
   #home{
       display: none;
