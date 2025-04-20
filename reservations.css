@@ -234,7 +234,7 @@ body{
     
 }
 
-  @media only screen and (max-width: 400px) and (min-width: 0px){
+  @media only screen and (max-width: 480px) and (min-width: 0px){
 
 
     body{
@@ -281,7 +281,7 @@ body{
     .form input{
         padding: 15px;
         
-        width: 35vh;
+        width: 75vw;
         box-sizing: border-box;
         
     
@@ -290,7 +290,7 @@ body{
     
     
     .form button{
-        width: 35vh;
+        width: 75vw;
         padding: 15px;
         border-radius: 10px;
         margin-top: 5vh;
@@ -319,7 +319,7 @@ body{
         /* margin-top: 10vh; */
         margin-left: 8vh;
         /* padding-right: 1cm; */
-        width: 60vw ;
+        width: 15rem ;
        
         position: fixed;
     
@@ -341,6 +341,10 @@ body{
       margin-left: -32vh;
   }  
   .icons{
-      gap: 3vh;
+      gap: 2vh;
   }
+  }
+
+  @media only screen and (max-width: 770px) and (min-width: 481px){
+
   }
