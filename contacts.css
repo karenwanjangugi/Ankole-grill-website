@@ -201,12 +201,12 @@ body{
   }
   .image{
     position: absolute;
-    margin-top: 6vh;
+    margin-top: 1vh;
   }
   .image img{
     height: 20vh;
-    margin-bottom: 5vh;
-    margin-left: 93vh;
+    /* margin-bottom: -10vh; */
+    margin-left: 99vh;
     
     
 }

@@ -255,7 +255,7 @@ transform: scale(1.1);
     font-size: 22px;
     /* border: solid; */
     padding: 0;
-    margin-left: -1vw;
+    /* margin-left: -1vw; */
 }
 
 @media only screen and (max-width: 480px) and (min-width: 0px){
